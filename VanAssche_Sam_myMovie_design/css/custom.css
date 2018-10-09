@@ -1,0 +1,139 @@
+/* ==============================================
+   FONTS
+   ============================================== */
+   @import url('https://fonts.google.com/specimen/Libre+Baskerville');
+
+
+
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+.top {
+    margin-top: 3%;
+}
+
+.button1{
+    margin:2%;
+}
+
+.button2 {
+    margin:2%;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+p {
+    color: #4C4C4C;
+    font-family: 'Baskerville';
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    color: #4C4C4C;
+    font-family: 'Baskerville';
+    font-size: 55pt;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Baskerville';
+    font-size: 22pt;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+h3 { 
+    color: #4C4C4C;
+    font-family: 'Open Sans';
+    font-size: 13pt;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ro > div {
+    /*border: solid 1px green;*/
+    display:flex; 
+    align-items:stretch;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 0.75rem;
+    position: relative; 
+}
+
+.btn {
+    border-radius: 0;
+    bottom: 15px;
+}
+
+.button1 {
+    align-content: left;
+}
+
+.button2 {
+    align-content: right;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #4C4C4C;
+    bottom: 0;
+}
+
+.logo {
+    width: 35%;
+
+}
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .btn-info {
+        background-color: black;
+        border-color: black;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
