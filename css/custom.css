@@ -103,7 +103,18 @@ footer{
 
 .logo {
     width: 35%;
+}
 
+.nav-link {
+    color: #4C4C4C;
+}
+
+.nav-link:hover {
+    color: lightgrey;
+}
+
+.footer p {
+    text-align: right;
 }
 
 /* MEDIA QUERIES
