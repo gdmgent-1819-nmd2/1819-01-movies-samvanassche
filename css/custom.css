@@ -18,13 +18,6 @@
     margin-top: 3%;
 }
 
-.button1{
-    margin:2%;
-}
-
-.button2 {
-    margin:2%;
-}
 
 body {
     background-color: #F7F7F7;
@@ -43,6 +36,7 @@ h1 {
     font-family: 'Baskerville';
     font-size: 55pt;
     text-align: center;
+    margin: 20px 0px 20px 0px;
 }
 
 h2 {
@@ -52,6 +46,7 @@ h2 {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 15px 0px 15px 0px;
 }
 
 
@@ -62,10 +57,10 @@ h3 {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 10px 0px 10px 0px;
 }
 
 .ro > div {
-    /*border: solid 1px green;*/
     display:flex; 
     align-items:stretch;
 }
@@ -79,26 +74,29 @@ article {
 .btn {
     border-radius: 0;
     bottom: 15px;
+    color: white;
+    background-color:rgb(105, 105, 105);  
+    display: inline-block;
+    width: 45%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0px 10px 10px;
 }
 
-.button1 {
-    align-content: left;
-}
-
-.button2 {
-    align-content: right;
-}
-
-.bg-dark {
-    background-color: black;
-}
+.btn:hover {
+    background-color:rgb(255, 195, 44) ;
+    border-color:rgb(255, 195, 44);
+}  
 
 footer{
     display: flex;
-    height: 60px;
+    height: 65px;
     width: 100%;
-    background-color: #4C4C4C;
-    bottom: 0;
+    background-color: rgb(105, 105, 105);
+    margin: 50px 0px 0px 0px;
 }
 
 .logo {
@@ -106,7 +104,11 @@ footer{
 }
 
 .nav-link {
+    margin: 0px 0px 10px 0px;
     color: #4C4C4C;
+    border:1px solid #4C4C4C;
+    border-width:0px 0px 1px 0px;
+
 }
 
 .nav-link:hover {
@@ -116,6 +118,7 @@ footer{
 .footer p {
     text-align: right;
 }
+
 
 
 
