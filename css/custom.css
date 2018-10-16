@@ -21,14 +21,12 @@
 
 body {
     background-color: #F7F7F7;
+    font-size: 14px;
 }
 
 p {
     color: #4C4C4C;
     font-family: 'Baskerville';
-    font-size: 12pt;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 h1 {
@@ -99,6 +97,12 @@ article {
     margin-bottom: 0.75rem;
     position: relative; 
 }
+article .article-txt, article .article-action {
+    padding: 0 14px;
+}
+article .article-action {
+    display: flex;
+}
 
 .btn {
     border-radius: 0;
@@ -106,20 +110,19 @@ article {
     color: white;
     background-color:rgb(105, 105, 105);  
     display: inline-block;
-    width: 45%;
+    width: 100%;
     border: none;
     padding: 14px 28px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
-    margin: 10px 0px 10px 10px;
+    margin: 0 0px 10px 0;
 }
 
 .btn:hover {
     background-color:rgb(255, 195, 44) ;
     border-color:rgb(255, 195, 44);
 }  
-
 
 .footer {
     display: flex;
@@ -134,6 +137,7 @@ article {
   .name {
     padding: 1rem;
     color: white;
+    margin: 0 0 0 140px;
    
   }
   
@@ -160,7 +164,11 @@ article {
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .btn {
+        width: 48%;
+    }
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
@@ -170,6 +178,7 @@ article {
         background-color: black;
         border-color: black;
     }
+    
 }
 
 
